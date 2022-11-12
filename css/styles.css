@@ -1,0 +1,422 @@
+body{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+footer{
+    padding: 6%;
+}
+h1{
+    font-size: 3.4rem;
+    margin: 60px 0;
+    font-weight: 500;
+}
+h2{
+    color: #000000;
+    font-size: 2rem;
+}
+h4{
+    font-weight: 400;
+}
+
+p{
+    font-size: 1.1rem;
+    margin: 30px 0;
+    font-weight: 400;
+}
+
+.sm-text{
+    font-size: 0.85rem;
+    display: inline-block;
+    margin: 10px 0;
+}
+
+.white-text{
+    color: white;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+/* Navbar */
+
+.navbar-brand{
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+.nav-link{
+    margin: 0 10px;
+}
+.btn-outline-dark{
+    height: auto;
+    width: 150px;
+}
+
+/* Sections */
+
+.title-section{
+    padding: 0 4%;
+}
+
+.para{
+    font-size: 1.2rem;
+}
+
+.container-fluid{
+    padding: 8% 7%;
+}
+
+.grey-section{
+    background-color: #f2f2f2;
+    padding: 6% 14%;
+}
+
+.dark-section{
+    background-color: #333333;
+    padding: 10% 16%;
+}
+
+.white-section{
+    padding: 10% 16%;
+}
+
+.card-section{
+    padding: 6% 10%;
+}
+
+/* Title Page */
+
+.title{
+    padding-right: 8%;
+}
+.container{
+    border: 2px black;
+    border-style: solid;
+    padding: 2%;
+    border-radius: 15px;
+    height: 500px;
+}
+.sm-circle{
+    position: relative;
+    display: inline-block;
+    margin-left: 10px;
+    height: 10px;
+    width: 10px;
+    border: 1px black;
+    border-style: solid;
+    border-radius: 100%;
+}
+.sm-circle:hover{
+    border: none;
+    background-color: black;
+}
+.center-container{
+    height: 400px;
+    position: relative;
+    left: 10%;
+}
+.left-container{
+    height: 400px;
+    position: relative;
+}
+
+.white{
+    background-color: white;
+}
+
+.black{
+    background-color: black;
+}
+
+.black-border{
+    border: 2px black solid;
+    height: 80px;
+    width: 80px;
+}
+
+.square{
+    height: 80px;
+    width: 80px;
+    position: absolute;
+}
+
+.square-1{
+    left: 280px;
+    top: 80px;
+}
+
+.square-1:hover{
+    background-color: white;
+    border: 2px black solid;
+}
+
+.circle{
+    border-radius: 100%;
+    position: absolute;
+}
+.top-circle{
+    top: 80px;
+    left: 120px;
+}
+.top-circle:hover{
+    background-color: black;
+    border: none;
+}
+.bottom-circle{
+    top: 240px;
+    left: 200px;
+}
+.bottom-circle:hover{
+    background-color: black;
+    border: none;
+}
+.right-circle{
+    height: 20px;
+    width: 20px;
+    top: 140px;
+    left: 420px;
+}
+.right-circle:hover{
+    background-color: white;
+    border: 2px black solid;
+}
+.left-circle{
+    height: 20px;
+    width: 20px;
+    top: 240px;
+    left: 40px;
+}
+.left-circle:hover{
+    background-color: white;
+    border: 2px black solid;
+}
+.triangle-3{
+    top: 240px;
+    left: 120px;
+}
+.triangle-4{
+    top: 243px;
+    left: 123px;
+    display: none;
+}
+
+.triangle{
+    height: 0;
+    width: 0;
+    position: absolute;
+}
+
+.black-triangle{
+    border-top: 40px black solid;
+    border-left: 40px black solid;
+    border-right: 40px transparent solid;
+    border-bottom: 40px transparent solid;
+}
+
+.white-triangle{
+    border-top: 40px white solid;
+    border-left: 40px white solid;
+    border-right: 40px transparent solid;
+    border-bottom: 40px transparent solid;
+}
+
+.str-black-triangle{
+    border-top: 40px transparent solid;
+    border-left: 40px black solid;
+    border-right: 40px transparent solid;
+    border-bottom: 40px black solid;
+}
+
+.white-border-triangle{
+    border-top: 36px white solid;
+    border-left: 34px white solid;
+    border-right: 34px transparent solid;
+    border-bottom: 36px transparent solid;
+}
+
+.black-border-triangle{
+    border-top: 36px black solid;
+    border-left: 34px black solid;
+    border-right: 34px transparent solid;
+    border-bottom: 36px transparent solid;
+}
+
+.black-border-triangle:hover{
+    display: none;
+}
+
+.str-white-border-triangle{
+    border-top: 36px transparent solid;
+    border-left: 34px white solid;
+    border-right: 34px transparent solid;
+    border-bottom: 36px white solid;
+}
+
+.triangle-1{
+    top: 160px;
+    left: 200px;
+}
+
+.triangle-2{
+    top: 163px;
+    left: 203px;
+}
+.triangle-2:hover{
+    display: none;
+}
+.triangle-5{
+    top: 160px;
+    left: 280px;
+}
+.triangle-6{
+    top: 165px;
+    left: 283px;
+}
+.triangle-6:hover{
+    display: none;
+}
+
+/* Companies */
+
+.bg-circle{
+    height: 80px;
+    width: 80px;
+    position: static;
+    display: inline-block;
+    margin: 30px 20px 0;
+}
+
+/* Dark section */
+
+.left{
+    text-align: left;
+}
+
+.box{
+    height: 24px;
+    width: 24px;
+    border-radius: 100%;
+    display: inline-block;
+    position: relative;
+    top: 5px;
+}
+
+.figure{
+    position: relative;
+}
+
+.rectangle{
+    height: 232px;
+    width: 400px;
+    position: absolute;
+}
+
+
+.square-2{
+    left: 160px;
+    top: 40px;
+}
+
+.square-2:hover{
+    background-color: black;
+    border: 2px white solid;
+}
+
+.triangle-7{
+    top: 120px;
+    left: 80px;
+}
+
+.triangle-8{
+    top: 122px;
+    left: 83px;
+}
+
+.triangle-9{
+    top: 122px;
+    left: 83px;
+    border-left: 34px #222222 solid;
+    border-top: 36px #222222  solid;
+}
+
+.white-circle{
+    height: 20px;
+    width: 20px;
+    top: 100px;
+    left: 300px;
+}
+
+.black-circle{
+    height: 80px;
+    width: 80px;
+    border: 2px white solid;
+    top: 200px;
+    left: 100px;
+}
+
+/* Grey section */
+
+.left-container .white-border-triangle{
+    border-top: 36px #f2f2f2 solid;
+    border-left: 34px #f2f2f2 solid;
+}
+.left-container .str-white-border-triangle{
+    border-left: 34px #f2f2f2 solid;
+    border-bottom: 36px #f2f2f2  solid;
+}
+
+/* Card */
+
+.card{
+    margin: 5% auto;
+}
+
+.card-body{
+    background-color: #000000;
+    padding: 8% 10%;
+}
+
+.card-text{
+    margin: 4% 0;
+    font-size: 0.9rem;
+}
+
+.str-white-triangle{
+    border-top: 40px transparent solid;
+    border-left: 40px white solid;
+    border-right: 40px transparent solid;
+    border-bottom: 40px white solid;
+    top: 120px;
+    left: 160px;
+}
+
+.c-black-triangle{
+    border-top: 36px transparent solid;
+    border-left: 34px #222222 solid;
+    border-right: 34px transparent solid;
+    border-bottom: 36px #222222 solid;
+    top: 124px;
+    left: 163px;
+}
+
+.quote{
+    margin: 16% auto;
+}
+
+.md-circle{
+    height: 40px;
+    width: 40px;
+    position: static;
+    margin: 20px auto;
+}
+
+.r-border{
+    border-right: 1px black solid;
+    padding: 0 4%;
+}
+
+.flex-column{
+    margin: 20px 0;
+}
