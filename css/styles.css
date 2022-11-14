@@ -6,7 +6,7 @@ footer{
     padding: 6%;
 }
 h1{
-    font-size: 3.4rem;
+    font-size: 3.4em;
     margin: 60px 0;
     font-weight: 500;
 }
@@ -58,6 +58,8 @@ a{
 
 .title-section{
     padding: 0 4%;
+    height: 100vh;
+    overflow: hidden;
 }
 
 .para{
@@ -113,7 +115,8 @@ a{
     background-color: black;
 }
 .center-container{
-    height: 400px;
+    width: 31.25rem;
+    height: 25rem;
     position: relative;
     left: 10%;
 }
@@ -367,6 +370,10 @@ a{
     border-bottom: 36px #f2f2f2  solid;
 }
 
+.pad{
+    padding: 10% 36%;
+}
+
 /* Card */
 
 .card{
@@ -419,4 +426,67 @@ a{
 
 .flex-column{
     margin: 20px 0;
+}
+
+@media(max-width: 1250px){
+    .center-container{
+        left: 0;
+    }
+    h1{
+        font-size: 3.2rem;
+    }
+    .grey-section{
+        padding: 6% 8%;
+    }
+}
+
+@media(max-width: 1045px){
+    h1{
+        font-size: 2.9rem;
+    }
+    .center-container{
+        left: -5%;
+    }
+}
+
+@media(max-width: 991px){
+    h1{
+        font-size: 2.4rem;
+    }
+    .container{
+        /* visibility: hidden; */
+        display: none;
+    }
+    .title-section{
+        padding-bottom: 20%;
+    }
+    .bg-circle{
+        height: 70px;
+        width: 70px;
+    }
+    .grey-section{
+        padding: 20% 16%;
+    }
+    .dark-section{
+        padding: 20% 16%;
+    }
+    .pad{
+        padding: 10%;
+    }
+    .figure{
+        visibility: hidden;
+    }
+    .left-container{
+        display: none;
+    }
+    .figure2{
+        display: none;
+    }
+    .mb-2{
+        font-size: 0.7rem;
+    }
+    .r-border{
+        border: none;
+        padding: 10% 12%
+    }
 }
