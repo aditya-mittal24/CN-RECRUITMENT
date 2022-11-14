@@ -1,6 +1,8 @@
 body{
     text-align: center;
     font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+    margin: 0;
 }
 footer{
     padding: 6%;
@@ -474,7 +476,7 @@ a{
         padding: 10%;
     }
     .figure{
-        visibility: hidden;
+        display: none;
     }
     .left-container{
         display: none;
